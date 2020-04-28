@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Dashboard from '../pages/Dashboard';
 import Heroes from '../pages/Heroes';
-import PageNotFound from '../pages/PageNotFound';
+// import PageNotFound from '../pages/PageNotFound';
 
 const Routes: React.FC = () => (
   <Switch>
