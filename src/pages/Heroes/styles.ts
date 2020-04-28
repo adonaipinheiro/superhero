@@ -1,26 +1,14 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { shade } from 'polished';
 
-interface FormProps {
-  hasSearch: boolean;
-}
-
-export const Container = styled.div<FormProps>`
+export const Container = styled.div`
   display: flex;
-  padding-top: 20%;
   flex-direction: column;
   flex: 1;
   height: 100%;
   width: 100%;
   justify-content: center;
   align-items: center;
-  transition: transform 2s;
-
-  ${(props) =>
-    props.hasSearch &&
-    css`
-      transform: translateY(-120px);
-    `}
 `;
 
 export const Author = styled.span`
