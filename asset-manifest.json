@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/superhero/static/js/main.067b9f7a.chunk.js",
-    "main.js.map": "/superhero/static/js/main.067b9f7a.chunk.js.map",
+    "main.js": "/superhero/static/js/main.e9b09290.chunk.js",
+    "main.js.map": "/superhero/static/js/main.e9b09290.chunk.js.map",
     "runtime-main.js": "/superhero/static/js/runtime-main.f197a5bf.js",
     "runtime-main.js.map": "/superhero/static/js/runtime-main.f197a5bf.js.map",
-    "static/js/2.8ce34fa3.chunk.js": "/superhero/static/js/2.8ce34fa3.chunk.js",
-    "static/js/2.8ce34fa3.chunk.js.map": "/superhero/static/js/2.8ce34fa3.chunk.js.map",
+    "static/js/2.9af05069.chunk.js": "/superhero/static/js/2.9af05069.chunk.js",
+    "static/js/2.9af05069.chunk.js.map": "/superhero/static/js/2.9af05069.chunk.js.map",
     "index.html": "/superhero/index.html",
-    "precache-manifest.3d226074511fced31f57358529209405.js": "/superhero/precache-manifest.3d226074511fced31f57358529209405.js",
+    "precache-manifest.009395377e5de87e17dde16f6ee4bcad.js": "/superhero/precache-manifest.009395377e5de87e17dde16f6ee4bcad.js",
     "service-worker.js": "/superhero/service-worker.js",
-    "static/js/2.8ce34fa3.chunk.js.LICENSE.txt": "/superhero/static/js/2.8ce34fa3.chunk.js.LICENSE.txt"
+    "static/js/2.9af05069.chunk.js.LICENSE.txt": "/superhero/static/js/2.9af05069.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f197a5bf.js",
-    "static/js/2.8ce34fa3.chunk.js",
-    "static/js/main.067b9f7a.chunk.js"
+    "static/js/2.9af05069.chunk.js",
+    "static/js/main.e9b09290.chunk.js"
   ]
 }
