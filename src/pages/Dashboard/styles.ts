@@ -38,6 +38,8 @@ export const Form = styled.form`
   display: flex;
   width: 100%;
   max-width: 700px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ddd;
 
   input {
     flex: 1;

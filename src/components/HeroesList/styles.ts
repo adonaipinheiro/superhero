@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { shade } from 'polished';
 
+import notFound from '../../assets/not_found.png';
+
 export const Container = styled.div`
   margin-top: 60px;
   max-width: 700px;
@@ -20,6 +22,7 @@ export const HeroCard = styled(Link)`
   border-radius: 4px;
   margin-bottom: 15px;
   text-decoration: none;
+  box-shadow: 0 0 10px #ddd;
   transition: transform 0.2s;
 
   img {
@@ -30,6 +33,8 @@ export const HeroCard = styled(Link)`
     max-height: 200px;
     min-width: 150px;
     min-height: 200px;
+    background: #ddd url(${notFound}) no-repeat center;
+    color: #fff;
   }
 
   div {

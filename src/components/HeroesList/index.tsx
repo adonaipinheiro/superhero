@@ -21,8 +21,14 @@ const HeroesList: React.FC<ComponentProps> = ({ data }: ComponentProps) => {
   return (
     <Container>
       {data.map((hero) => (
-        <HeroCard to={`heroes/${hero.name}`} key={hero.id}>
-          <img src={hero.image.url} alt="teste" width={150} />
+        <HeroCard
+          to={{
+            pathname: `heroes/${hero.name}`,
+            state: { idHero: hero.id },
+          }}
+          key={hero.id}
+        >
+          <img src={hero.image.url} alt={hero.name} width={150} />
           <div>
             <strong>{hero.name}</strong>
             <p>{hero.biography.publisher}</p>
